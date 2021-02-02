@@ -5,3 +5,29 @@
 // Then import Bootstrap an BootstrapVue SCSS files (order is important)
 @import 'node_modules/bootstrap/scss/bootstrap.scss';
 @import 'node_modules/bootstrap-vue/src/index.scss';
+
+#app {
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  /* text-align: center; */
+  color: #2c3e50;
+  margin-top: 60px;
+  word-break: keep-all;
+}
+
+.tab-card > .btn-wrap {
+  display: flex;
+  justify-content: flex-end;
+  margin: 2em 1em;
+  button + button {
+    margin-left: 1em;
+  }
+}
+
+button, .btn {
+  cursor: pointer;
+  &.disabled, [disabled] {
+    cursor: inherit;
+  }
+}
