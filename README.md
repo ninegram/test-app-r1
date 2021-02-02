@@ -4,14 +4,14 @@
 
 두려움과 심장으로 보는 에니어그램 테스트
 
+## Demo
+
+* <https://ninegram.github.io/test-app-r1>
+
 ## Website
 
 * 홈페이지: <https://www.enneagramkorea.com/> 
 * 테스트 페이지: <https://www.enneagramkorea.com/riso-hudson-test>
-
-### Admin
-
-* 웹솔루션: <https://imweb.me/>
 
 ## Project setup
 ```
